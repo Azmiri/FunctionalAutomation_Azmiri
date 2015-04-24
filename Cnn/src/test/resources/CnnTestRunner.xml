@@ -1,0 +1,24 @@
+<!--<?xml version ="1.0" encoding ="UFT-8"?>-->
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
+<!--<suite name="Cnn test on Web browser">-->
+
+    <!--<parameter name ="url" value = "http://www.cnn.com"/>-->
+    <!--<test name = "Cnn Home Page ">-->
+        <!--<classes>-->
+            <!--<class name ="com.Cnn.CnnHome"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+<!--</suite>-->
+
+
+        <?xml version="1.0" encoding="UTF-8"?>
+
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon test on Web browser">
+<parameter name="url" value="http://www.Cnn.com"/>
+<test name="Cnn Home Page ">
+    <classes>
+        <class name="com.Cnn.CnnHome"/>
+    </classes>
+</test>
+</suite>
