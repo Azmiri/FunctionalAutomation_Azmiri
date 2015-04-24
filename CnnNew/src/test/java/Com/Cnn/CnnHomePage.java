@@ -20,6 +20,7 @@ public class CnnHomePage extends Base {
         Thread.sleep(4000);
 
         // this is comment
+        //test cnn
 
     }
 
