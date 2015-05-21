@@ -4,15 +4,21 @@
 
         <suite name="Amazon test on Web browser">
 
+   <!--// <parameter name="url" value="http://www.yahoo.com"/>-->
     <parameter name="url" value="http://www.amazon.com"/>
-
 
    <test name=" Amazon Home Page ">
 
 
     <classes>
 
-    <class name="com.amazon.AmazonHome"/>
+<!--<class name="com.amazon.AmazonHome"/>-->
+        <!--<class name = "com.amazon.SignUp"/>-->
+       <!--// <class name = "com.amazon.ShopByDep"/>-->
+        <!--<class name = "com.amazon.Department"/>-->
+       <!--<class name = "com.amazon.purchaseFromTodayDeal"/>-->
+       <!--<class name="com.amazon.SearchBabyItem"/>-->
+        <class name="com.amazon.Appliances"/>
 
 </classes>
 
